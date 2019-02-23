@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #9E9E9E;
+}
+
+button{
+    color:#fff;
+    transition: .3s;
+    outline: none;
+    font-size: 14px;
+    padding: 0 10px;
+    cursor: pointer;
+    line-height: 34px;
+    border-radius: 4px;
+    background: #0fbcf9;
+    border: 1px solid #333;
+}
+
+hr{
+    margin: 15px 0;
+}
+
+fieldset{
+    margin:20px auto;
+    padding: 15px 10px;
+    max-width: 400px;
+    border: 1px solid #ccc
+}
+
+fieldset legend{
+    color: #3B3B98;
+    text-align: left;
+    font-size: 18px;
+}
+
+button:hover{
+    color:#fff;
+    background:#4bcffa;
+}
+
+.main{
+    padding: 0 10px;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: mediumaquamarine;
+}
+
+.main .top-main{
+    width: 100%;
+    text-align: center;
+}
+
+.main aside{
+    width: 50%;
+    text-align: center;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    background: #607D8B;
+    padding: 15px 10px;
+}
+
+table{
+    width: 100%;
+}
+
+table,
+tr,
+td,
+th{
+    color: #fff;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+table thead tr{
+    background: #1e272e;
+}
+
+table tr th{
+    padding:15px 10px;
+}
+
+table tbody tr td{
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+table tbody tr:nth-child(odd){
+    background: #808e9b;
+}
+
+table tbody tr:nth-child(even){
+    background: #485460;
+}
+
+@media screen and (min-width: 600px){
+    footer>div{
+        display: flex;
+        padding: 15px 10px;
+        align-items: stretch;
+        border:1px solid #ccc;
+        justify-content: space-between;
+    }
+}
